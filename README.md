@@ -17,3 +17,17 @@ If you really want to use it, for whatever reason, just create a file with the e
 `let {<variableName>} <value>` -> Creates a new variable with given name and gives it a given value
 
 `throw <customErrorMessage>` -> Prints an error to the console and stops the program
+
+<h3>Example Program</h3>
+
+```
+// Prints "Hello, World!" and "What is your name?" to the console
+println Hello, World!
+println What is your name?
+
+// Gets user input and stores it in 'name' variable
+getln {name}
+
+// Prints "Nice to meet you" along with the name the user entered
+println Nice to meet you, {name} !
+```
