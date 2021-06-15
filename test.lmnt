@@ -1,0 +1,7 @@
+println Hello, World!
+println What is your name?
+
+// Gets user input and stores it in 'name' variable
+getln {name}
+
+println Nice to meet you, {name} !
